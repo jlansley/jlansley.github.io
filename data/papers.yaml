@@ -9,21 +9,18 @@ working_papers:
       matters.
     pdf: "/files/papers/paper-1.pdf"
 
-  - title: "A Second Working Paper Title"
-    date: "2025"
-    coauthors: "with Jane Doe"
-    jel: "D83, L14"
-    abstract: >
-      Short abstract for this paper. Replace with your own summary of the
-      question, method, and finding.
-    pdf: "/files/papers/paper-2.pdf"
-    status: "Under review"
-
 work_in_progress:
   - title: "A Third Paper, Perhaps a Class Project Turned Draft"
-    date: "2024"
+    date: "2026"
     coauthors: ""
     jel: "C21"
     abstract: >
       Short abstract for this paper too.
     pdf: ""
+  - title: "A Third Paper, Perhaps a Class Project Turned Draft"
+  date: "2024"
+  coauthors: ""
+  jel: ""
+  abstract: >
+      Short abstract for this paper too.
+  pdf: ""
