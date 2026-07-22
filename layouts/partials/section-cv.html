@@ -1,0 +1,18 @@
+<section id="cv" class="section wrap">
+  <p class="eyebrow">Curriculum Vitae</p>
+  <div class="cv-head">
+    <h2>Education &amp; Positions</h2>
+    <div class="cv-head-actions">
+      <a class="pill pill-primary" href="{{ .Site.Params.cv_file }}">Download full CV (PDF)</a>
+      <a class="cv-email" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+    </div>
+  </div>
+  <ol class="timeline">
+    {{ range .Site.Data.education }}
+    <li>
+      <span class="timeline-year">{{ .years }}</span>
+      <span class="timeline-detail"><strong>{{ .degree }}</strong>, {{ .school }}</span>
+    </li>
+    {{ end }}
+  </ol>
+</section>

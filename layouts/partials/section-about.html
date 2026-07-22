@@ -1,0 +1,24 @@
+<section id="top" class="hero wrap">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">{{ .Site.Params.field }} &middot; {{ .Site.Params.institution }}</p>
+      <h1>{{ .Site.Params.name }}</h1>
+      <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+      <p class="hero-bio">
+        I am a PhD candidate in Economics at the {{ .Site.Params.institution }}, working on
+        <!-- Replace this sentence with your actual fields and one active research question. -->
+        [your fields, e.g. labor economics and industrial organization], with a focus on
+        [the specific question your work addresses]. Before my PhD, I [one line on your background].
+      </p>
+      <div class="hero-links">
+        {{ if .Site.Params.onjobmarket }}<a class="pill pill-primary" href="#research">Job Market Paper</a>{{ end }}
+        <a class="pill" href="{{ .Site.Params.cv_file }}">CV (PDF)</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <span class="photo-placeholder">your<br>photo</span>
+      </div>
+    </div>
+  </div>
+</section>

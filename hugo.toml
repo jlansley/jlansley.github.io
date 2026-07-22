@@ -1,0 +1,17 @@
+baseURL = "https://josephlansley.github.io/"
+languageCode = "en-us"
+title = "Joseph Lansley"
+
+[params]
+  name = "Joseph Lansley"
+  field = "Economics"
+  institution = "University of Rochester"
+  tagline = "PhD Candidate in Economics, University of Rochester"
+  email = "joseph.lansley@rochester.edu"
+  cv_file = "/files/cv.pdf"
+  github = "https://github.com/josephlansley"
+  linkedin = "https://linkedin.com"
+  onjobmarket = true
+
+[markup.goldmark.renderer]
+  unsafe = true
