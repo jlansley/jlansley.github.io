@@ -1,4 +1,4 @@
-baseURL = "https://josephlansley.github.io/"
+baseURL = "https://jlansley.github.io/"
 languageCode = "en-us"
 title = "Joseph Lansley"
 
@@ -9,9 +9,8 @@ title = "Joseph Lansley"
   tagline = "PhD Candidate in Economics, University of Rochester"
   email = "joseph.lansley@rochester.edu"
   cv_file = "/files/cv.pdf"
-  github = "https://github.com/josephlansley"
+  github = "https://github.com/jlansley"
   linkedin = "https://linkedin.com"
-  onjobmarket = true
 
 [markup.goldmark.renderer]
   unsafe = true

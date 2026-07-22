@@ -1,18 +1,13 @@
-# Your job market paper goes first in working_papers, tagged jmp: true
-# so it gets the "Job Market Paper" label. Set jmp: false on the rest.
-
 working_papers:
-  - title: "Your Job Market Paper Title Goes Here"
+  - title: "Your Working Paper Title Goes Here"
     date: "2026"
     coauthors: ""
     jel: "J24, J31, O33"
     abstract: >
       Write a 3-5 sentence abstract here. State the question, your approach or
       identification strategy, the main finding with a magnitude, and why it
-      matters. Committees often read only this paragraph, so make every
-      sentence earn its place.
-    pdf: "/files/papers/job-market-paper.pdf"
-    jmp: true
+      matters.
+    pdf: "/files/papers/paper-1.pdf"
 
   - title: "A Second Working Paper Title"
     date: "2025"
@@ -23,7 +18,6 @@ working_papers:
       question, method, and finding.
     pdf: "/files/papers/paper-2.pdf"
     status: "Under review"
-    jmp: false
 
 work_in_progress:
   - title: "A Third Paper, Perhaps a Class Project Turned Draft"

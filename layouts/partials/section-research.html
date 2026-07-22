@@ -3,17 +3,11 @@
 
   <h2>Working Papers</h2>
   {{ range .Site.Data.papers.working_papers }}
-  <article class="paper{{ if .jmp }} paper-jmp{{ end }}">
-    {{ if .jmp }}<p class="paper-kicker">Job Market Paper</p>{{ end }}
-    <h3 class="{{ if .jmp }}paper-title{{ else }}paper-title-sm{{ end }}">{{ .title }}{{ if .status }} <span class="tag">{{ .status }}</span>{{ end }}</h3>
+  <article class="paper">
+    <h3 class="paper-title-sm">{{ .title }}{{ if .status }} <span class="tag">{{ .status }}</span>{{ end }}</h3>
     <p class="paper-meta">{{ .date }}{{ if .coauthors }} &middot; {{ .coauthors }}{{ end }}{{ if .jel }} &middot; JEL: {{ .jel }}{{ end }}</p>
-    {{ if .jmp }}<p class="paper-abstract-label">Abstract</p>{{ end }}
     <p class="paper-abstract">{{ .abstract }}</p>
-    {{ if .jmp }}
-    <a class="pill pill-primary" href="{{ .pdf }}">Download PDF</a>
-    {{ else }}
-    <a class="text-link" href="{{ .pdf }}">PDF &rarr;</a>
-    {{ end }}
+    {{ if .pdf }}<a class="text-link" href="{{ .pdf }}">PDF &rarr;</a>{{ end }}
   </article>
   {{ end }}
 
