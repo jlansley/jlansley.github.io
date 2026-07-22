@@ -3,23 +3,21 @@
 
   <h2>Working Papers</h2>
   {{ range .Site.Data.papers.working_papers }}
-  <article class="paper">
-    <h3 class="paper-title-sm">{{ .title }}{{ if .status }} <span class="tag">{{ .status }}</span>{{ end }}</h3>
-    <p class="paper-meta">{{ .date }}{{ if .coauthors }} &middot; {{ .coauthors }}{{ end }}{{ if .jel }} &middot; JEL: {{ .jel }}{{ end }}</p>
+  <div class="paper">
+    <p class="paper-title"><a href="{{ .pdf }}">{{ .title }}</a>{{ if .status }} <span class="status">({{ .status }})</span>{{ end }}</p>
+    <p class="paper-meta">{{ if .coauthors }}{{ .coauthors }}, {{ end }}{{ .date }}{{ if .jel }} &middot; JEL {{ .jel }}{{ end }}</p>
     <p class="paper-abstract">{{ .abstract }}</p>
-    {{ if .pdf }}<a class="text-link" href="{{ .pdf }}">PDF &rarr;</a>{{ end }}
-  </article>
+  </div>
   {{ end }}
 
   {{ if .Site.Data.papers.work_in_progress }}
   <h2>Work in Progress</h2>
   {{ range .Site.Data.papers.work_in_progress }}
-  <article class="paper">
-    <h3 class="paper-title-sm">{{ .title }}</h3>
-    <p class="paper-meta">{{ .date }}{{ if .coauthors }} &middot; {{ .coauthors }}{{ end }}{{ if .jel }} &middot; JEL: {{ .jel }}{{ end }}</p>
+  <div class="paper">
+    <p class="paper-title">{{ if .pdf }}<a href="{{ .pdf }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+    <p class="paper-meta">{{ if .coauthors }}{{ .coauthors }}, {{ end }}{{ .date }}{{ if .jel }} &middot; JEL {{ .jel }}{{ end }}</p>
     <p class="paper-abstract">{{ .abstract }}</p>
-    {{ if .pdf }}<a class="text-link" href="{{ .pdf }}">PDF &rarr;</a>{{ end }}
-  </article>
+  </div>
   {{ end }}
   {{ end }}
 </section>

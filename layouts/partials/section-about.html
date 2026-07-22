@@ -5,16 +5,18 @@
       <h1>{{ .Site.Params.name }}</h1>
       <p class="hero-bio">
         I am a PhD candidate in Economics at the {{ .Site.Params.institution }}, working on
-        international macroeconomics.
+        [your fields, e.g. labor economics and industrial organization], with a focus on
+        [the specific question your work addresses]. Before my PhD, I [one line on your background].
       </p>
-      <div class="hero-links">
-        <a class="pill" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-        <a class="pill pill-primary" href="{{ .Site.Params.cv_file }}">CV (PDF)</a>
-      </div>
+      <p class="hero-links">
+        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+        <span class="sep">&middot;</span>
+        <a href="{{ .Site.Params.cv_file }}">Download CV</a>
+      </p>
     </div>
     <div class="hero-photo">
       <div class="photo-frame">
-        <img src="placeholder" alt="Joseph Lansley">
+        <span class="photo-placeholder">your<br>photo</span>
       </div>
     </div>
   </div>
