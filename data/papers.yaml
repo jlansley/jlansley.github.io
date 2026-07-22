@@ -1,19 +1,16 @@
 working_papers:
-  - title: "Your Working Paper Title Goes Here"
+  - title: "When Brexit Means Brexit: Recovering Trade Policy Expectations from UK Import Stockpiling"
     date: "2026"
-    coauthors: ""
-    jel: "J24, J31, O33"
+    coauthors: "with George Alessandria and Shafaat Yar Khan"
+    jel: "F12, F13, F14"
     abstract: >
-      Write a 3-5 sentence abstract here. State the question, your approach or
-      identification strategy, the main finding with a magnitude, and why it
-      matters.
-    pdf: "/files/papers/paper-1.pdf"
+      We use pre-Brexit stockpiling dynamics to recover expectations over the magnitude and timing of post-Brexit trade costs. Our identification hinges on a model of inventory management in the presence of future trade policy risk, disciplined by the high-frequency boom-bust dynamics of UK imports around Brexit deadlines. We find that the expected trade costs of Brexit were perceived to be large but declined with successive deadline revisions. In contrast, the credibility of proposed Brexit deadlines was highest at the final deadline. These anticipatory effects are obscured in low-frequency trade data, biasing estimates of expected trade costs toward zero.
+    pdf: "/files/papers/AKL.pdf"
 
 work_in_progress:
   - title: "A Third Paper, Perhaps a Class Project Turned Draft"
     date: "2026"
     coauthors: ""
-    jel: "C21"
     abstract: >
       Short abstract for this paper too.
     pdf: ""
