@@ -41,8 +41,9 @@ h2 { font-size: 1.3rem; font-weight: 600; margin: 0 0 18px; }
 .hero-bio { max-width: 60ch; color: var(--ink); margin: 14px 0 16px; }
 .hero-links { font-size: 0.95rem; margin: 0; }
 .hero-links .sep { color: var(--ink-soft); margin: 0 8px; }
+.hero-photo { margin-top: 28px; }
 .photo-frame {
-  width: 140px; height: 140px;
+  width: 190px; height: 190px;
   border: 1px solid var(--hairline);
   border-radius: 3px;
   background: #FFFFFF;
