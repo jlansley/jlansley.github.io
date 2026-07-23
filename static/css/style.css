@@ -68,8 +68,8 @@ h2 { font-size: 1.3rem; font-weight: 600; margin: 0 0 18px; }
 
 @media (max-width: 600px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-photo { order: -1; }
-  .photo-frame { width: 90px; height: 90px; }
+  .hero-photo { order: -1; margin-top: 0; display: flex; justify-content: center; margin-bottom: 16px; }
+  .photo-frame { width: 130px; height: 130px; }
   h1 { font-size: 1.9rem; }
 }
 
