@@ -1,19 +1,16 @@
 working_papers:
+  - title: "Time-Consistent Dollar Liquidity Provision and Safe-Asset Market Power"
+    date: "2026"
+    abstract: >
+      I study the interaction of dollar swap lines with U.S.\ safe asset market power. The United States can exercise market power over its assets’ liquidity premium provided dollar liquidity is credibly scarce during a crisis. Yet when crises occur, it has an ex post incentive to provide abundant dollar liquidity through swap lines to prevent disorderly sales of U.S.\ debt. In a two-country model of optimal safe asset issuance, I show that this time-consistency problem erodes U.S.\ market power and increases the price elasticity of foreign demand for Treasuries. I bring this prediction to the data using the swap-line interventions of 2008 and March 2020. Relative to countries excluded from the network, recipients exhibit the predicted increase in the price elasticity of Treasury demand after each episode. Matching these demand rotations in a calibrated structural model implies that the unanticipated component of the interventions reduced the convenience yield to less than half its initial value.
+      pdf: "/files/papers/TCDL.pdf"
   - title: "When Brexit Means Brexit: Recovering Trade Policy Expectations from UK Import Stockpiling"
     date: "2026"
     coauthors: "with George Alessandria and Shafaat Yar Khan"
-    jel: "F12, F13, F14"
     abstract: >
       We use pre-Brexit stockpiling dynamics to recover expectations over the magnitude and timing of post-Brexit trade costs. Our identification hinges on a model of inventory management in the presence of future trade policy risk, disciplined by the high-frequency boom-bust dynamics of UK imports around Brexit deadlines. We find that the expected trade costs of Brexit were perceived to be large but declined with successive deadline revisions. In contrast, the credibility of proposed Brexit deadlines was highest at the final deadline. These anticipatory effects are obscured in low-frequency trade data, biasing estimates of expected trade costs toward zero.
     pdf: "/files/papers/AKL.pdf"
-
 work_in_progress:
-  - title: "Optimal Time-Consistent Dollar Liquidity Provision"
-    date: "2026"
-    coauthors: ""
-    abstract: >
-      I study the interaction of dollar swap lines with U.S. safe asset market power. The U.S. can exercise market power over its assets’ liquidity premium provided dollar liquidity is credibly scarce during crisis. Yet when crises occur, it has an ex post incentive to provide abundant dollar liquidity through swap lines to prevent disorderly sales of U.S. debt. In a two-country model of optimal safe asset issuance, I show that this time consistency problem erodes U.S. market power by increasing the price elasticity of foreign demand for Treasuries. I quantify this effect empirically by identifying an increase in the price elasticity of demand among swap line recipients after 2008, relative to countries excluded from the network. Matching these elasticity changes in a calibrated structural model, I find the post-crisis convenience yield on U.S. assets would have been significantly higher if the U.S. could commit to greater scarcity of dollar liquidity, reversing its observed decline.
-    pdf: ""
   - title: "Convenience Yields and Optimal Imbalances"
     date: "2026"
     coauthors: "with Christopher Sleet"
